@@ -52,7 +52,8 @@ LoginTest4
     Input Password    xpath=//input[@id='txtPassword']    admin123
     
     Set Selenium Implicit Wait    10s
-    Click Button    xpath=//input[@id='btnLogin']  
+    Click Button    xpath=//input[@id='btnLogin'] 
+    Close Browser 
     
 LoginTest5
     Log To Console    Hello  
